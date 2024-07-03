@@ -1,4 +1,4 @@
-FROM bentoml/model-server:0.11.0-py37
+FROM bentoml/model-server:0.11.0-py310
 MAINTAINER ersilia
 
 WORKDIR /repo
