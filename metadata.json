@@ -12,7 +12,7 @@
     "Output Type": ["Integer"],
     "Output Shape": "List",
     "Interpretation": "Simple count of characters in a SMILES string",
-    "Tag": "Fingerprint",
+    "Tag": ["Fingerprint"],
     "Publication": "https://ersilia.io",
     "Source Code": "https://github.com/ersilia-os/ersilia",
     "License": "GPL-3.0-or-later"
