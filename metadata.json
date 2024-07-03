@@ -3,7 +3,7 @@
     "Slug": "unit-test-compounds",
     "Status": "In progress",
     "Title": "Unit test model for compounds",
-    "Description": "Given a SMILES string, the model counts the number of characters and other string metrics. This model is just for unit testing, it is not intended to be used in a real-world scenario.",
+    "Description": "Given a SMILES string, the model counts the number of characters and other string metrics. This model is just for unit testing, it is not intended to be used in a real-world scenario. Ersilia codebase will heavily rely on this model repository to test various functionalities of the CLI such as fetching from GitHub, DockerHub and this repository will function as the model fixture for Ersilia's integration tests.",
     "Mode": "In-house",
     "Task": ["Regression"],
     "Input": ["Compound"],
