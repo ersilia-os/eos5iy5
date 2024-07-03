@@ -5,15 +5,31 @@
     "Title": "Unit test model for compounds",
     "Description": "Given a SMILES string, the model counts the number of characters and other string metrics. This model is just for unit testing, it is not intended to be used in a real-world scenario. Ersilia codebase will heavily rely on this model repository to test various functionalities of the CLI such as fetching from GitHub, DockerHub and this repository will function as the model fixture for Ersilia's integration tests.",
     "Mode": "In-house",
-    "Task": ["Regression"],
-    "Input": ["Compound"],
+    "Task": [
+        "Regression"
+    ],
+    "Input": [
+        "Compound"
+    ],
     "Input Shape": "Single",
-    "Output": ["Descriptor"],
-    "Output Type": ["Integer"],
+    "Output": [
+        "Descriptor"
+    ],
+    "Output Type": [
+        "Integer"
+    ],
     "Output Shape": "List",
     "Interpretation": "Simple count of characters in a SMILES string",
-    "Tag": ["Fingerprint"],
+    "Tag": [
+        "Fingerprint"
+    ],
     "Publication": "https://ersilia.io",
     "Source Code": "https://github.com/ersilia-os/ersilia",
-    "License": "GPL-3.0"
+    "License": "GPL-3.0",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5iy5.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5iy5",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
 }

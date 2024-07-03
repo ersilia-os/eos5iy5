@@ -25,6 +25,8 @@ Given a SMILES string, the model counts the number of characters and other strin
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos5iy5)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5iy5.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos5iy5) (AMD64, ARM64)
 
 ## Citation
 

@@ -16,6 +16,12 @@ CHECKPOINTS_BASEDIR = "checkpoints"
 FRAMEWORK_BASEDIR = "framework"
 
 
+def load_model(framework_dir, checkpoints_dir):
+    mdl = Model()
+    mdl.load(framework_dir, checkpoints_dir)
+    return mdl
+
+
 class Model(object):
     def __init__(self):
         self.DATA_FILE = "_data.csv"
