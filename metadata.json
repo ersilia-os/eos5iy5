@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos5iy5",
+    "Slug": "unit-test-compounds",
+    "Status": "In progress",
+    "Title": "Unit test model for compounds",
+    "Description": "Given a SMILES string, the model counts the number of characters and other string metrics. This model is just for unit testing, it is not intended to be used in a real-world scenario.",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,8 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": "Fingerprint",
+    "Publication": "https://ersilia.io",
+    "Source Code": "https://github.com/ersilia-os/ersilia",
+    "License": "GPL-3.0-or-later"
 }
